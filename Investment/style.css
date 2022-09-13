@@ -75,7 +75,7 @@ header{
    }
 
 .about-us div{
-padding: 2rem 9rem;
+padding: 2rem 2rem;
 }
 
 .about-us-2{
@@ -93,8 +93,12 @@ padding: 2rem 9rem;
     margin: 20px;
     
 }
-.about-us img{
-    width:300px; 
+.about-us-img{
+     width: 400px;
+    height: 400px;
+    background: url(/img/img1.jpeg) no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 .head{
     display: flex;
