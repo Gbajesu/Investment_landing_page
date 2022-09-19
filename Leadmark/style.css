@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');*{
+    
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar1 {
+    transition: 500ms ease;
+    background: transparent;
+}
+
+.navbar-default.scrolled {
+    background: #000;
+}
+
+
+.creative{
+    background: url(/img/img2.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* background-color: rgba(233, 123, 213, 0.7); */
+}
+
+https: //www.free-css.com/free-css-templates/page282/leadmark
