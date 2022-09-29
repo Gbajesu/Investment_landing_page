@@ -55,19 +55,19 @@ nav .nav-link:hover{
     background-attachment: fixed;
 }
 
-.course-1:hover {
+.cover1:hover{
     transform: translateY(-60px);
     transition-duration: 500ms;
     }
-.course-2:hover {
+.cover2:hover{
     transform: translateY(-60px);
     transition-duration: 500ms;
 }
-.course-3:hover {
+.cover3:hover{
     transform: translateY(-60px);
     transition-duration: 500ms;
 }
-.course-4:hover {
+.cover4:hover {
     transform: translateY(-60px);
     transition-duration: 500ms;
 }
@@ -78,7 +78,7 @@ nav .nav-link:hover{
 
 
 .course-1{
-    background: url(/Img/courses-1.jpg) no-repeat;
+     background-image:linear-gradient(rgba(212, 206, 228, 0.7), rgba(51, 30, 170, 0.7)),   url(/Img/courses-1.jpg);
     height: 40em;
     background-position: center;
     background-size: cover;
@@ -87,7 +87,7 @@ nav .nav-link:hover{
 
 
 .course-2 {
-    background: url(/Img/courses-2.jpg) no-repeat;
+     background-image:linear-gradient(rgba(212, 206, 228, 0.7), rgba(51, 30, 170, 0.7)),   url(/Img/courses-2.jpg);
     height: 40em;
     background-position: center;
     background-size: cover;
@@ -95,14 +95,14 @@ nav .nav-link:hover{
 }
 
 .course-3 {
-    background: url(/Img/courses-3.jpg) no-repeat;
+    background-image:linear-gradient(rgba(212, 206, 228, 0.7), rgba(51, 30, 170, 0.7)),   url(/Img/courses-3.jpg);
     height: 40em;
     background-position: center;
     background-size: cover;
     position: relative;
 }
 .course-4 {
-    background-image:linear-gradient(rgba(73, 56, 56, 0.7), rgba(0, 0, 0, 0.7)),   url(/Img/courses-4.jpg);
+    background-image:linear-gradient(rgba(212, 206, 228, 0.7), rgba(51, 30, 170, 0.7)),   url(/Img/courses-4.jpg);
     height: 40em;
     background-position: center;
     background-size: cover;
@@ -126,30 +126,31 @@ nav .nav-link:hover{
         z-index: 100;
       
 }
-.course-1:hover {
-    transform: translateY(-60px);
-    transition-duration: 750ms;
-}
 
-
-.course-2:hover {
-    transform: translateY(-60px);
-    transition-duration: 750ms;
-}
-
-.course-3:hover {
-    transform: translateY(-60px);
-    transition-duration: 750ms;
-}
-
-.cover4:hover {
-    transform: translateY(-60px);
-    transition-duration: 750ms;
-}
-.cover4{
-    transform: translateY(0px);
-    transition-duration: 750ms;
+.cover4, .cover1, .cover2, .cover3{
+    transform: translateY(0);
+    transition-duration: 1s;
 }
 .text1{
     z-index: 3;
+}
+
+
+.signup{
+    max-width: 900px;
+    width: 600px;
+    margin: 0, auto;
+}
+
+.signup1{
+    width: 250px;
+    height: 50px; 
+    
+}
+
+.buttonhide{
+    display: none;
+}
+.buttonhide:hover{
+    display: block;
 }
