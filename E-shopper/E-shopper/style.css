@@ -203,7 +203,141 @@ input[type="search"] {
   background-color: var(--color-2);
   
 }
+.overfloww{
+  overflow: hidden;
+  width: 30em;
+  height: 30em;
 
+}
+.trendyimg1{
+  background: url(/img/product-1.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg1:hover{
+  transform: scale(1.2);
+}
+.trendyimg1{
+  transition-duration: 500ms;
+}
+.trendyimg2{
+  background: url(/img/product-2.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg2:hover{
+  transform: scale(1.2);
+}
+.trendyimg2{
+  transition-duration: 500ms;
+}
+.trendyimg3{
+  background: url(/img/product-3.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg3:hover{
+  transform: scale(1.2);
+}
+.trendyimg3{
+  transition-duration: 500ms;
+}
+.trendyimg4{
+  background: url(/img/product-4.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg4:hover{
+  transform: scale(1.2);
+}
+.trendyimg4{
+  transition-duration: 500ms;
+}
+.bi-eye{
+  color: var(--color-1);
+  font-size: 1em;
+  font-weight: bolder;
+}
+.bi-cart3{
+   color: var(--color-1);
+  font-size: 1em;
+  font-weight: bolder;
+  align-text: center;
+}
+
+.trendyimg5{
+  background: url(/img/product-5.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg5:hover{
+  transform: scale(1.2);
+}
+.trendyimg5{
+  transition-duration: 500ms;
+}
+.trendyimg6{
+  background: url(/img/product-6.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg6:hover{
+  transform: scale(1.2);
+}
+.trendyimg6{
+  transition-duration: 500ms;
+}
+.trendyimg7{
+  background: url(/img/product-7.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg7:hover{
+  transform: scale(1.2);
+}
+.trendyimg7{
+  transition-duration: 500ms;
+}
+.trendyimg8{
+  background: url(/img/product-8.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg8:hover{
+  transform: scale(1.2);
+}
+.trendyimg8{
+  transition-duration: 500ms;
+}
+
+input[type=text]{
+  outline: none !important;
+         box-shadow: none;
+         width: 40em;
+}
+.subscribe{
+  background-color: var(--color-1);
+  
+}
+.subscribe:hover{
+  color: white;
+}
 
 /* https://www.free-css.com/free-css-templates/page277/eshopper */
 
