@@ -1,218 +1,350 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    --color-1:rgb(209,156,151);
-    --color-2:rgb(237,241,255);
-    /* --color-3:rgb(237, 241, 255); */
-   
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  --color-1: rgb(209, 156, 151);
+  --color-2: rgb(237, 241, 255);
 }
 
-.head-c{
-    background-color: var(--color-2);
+.head-c {
+  background-color: var(--color-2);
 }
-.head-link a{
- color: black;
- text-decoration: none;
-
+.head-link a {
+  color: black;
+  text-decoration: none;
 }
-.head-link a:hover{
-text-decoration: underline;
+.head-link a:hover {
+  text-decoration: underline;
 }
-.logo{
-    color: var(--color-1);
+.logo {
+  color: var(--color-1);
 }
-input[type="search"]{
-    outline: none;
-    width: 30rem;
+input[type="search"] {
+  outline: none;
+  width: 30rem;
 }
-.bi-search{
-    color: var(--color-1);
-   
+.bi-search {
+  color: var(--color-1);
 }
-.badge{
-    color: black;
-    text-decoration: none;
+.badge {
+  color: black;
+  text-decoration: none;
 }
-.bi-heart-fill, .bi-cart-fill {
-    color: var(--color-1);
-    
+.bi-heart-fill,
+.bi-cart-fill {
+  color: var(--color-1);
 }
-.head-icon a{
-    text-decoration: none;
+.head-icon a {
+  text-decoration: none;
 }
-.bg-light1{
-    background-color: white;
-   
+.bg-light1 {
+  background-color: white;
 }
 
-.nav-text a{
-     color: black;
-    font-weight: 600;
+.nav-text a {
+  color: black;
+  font-weight: 600;
 }
 
-.nav-text a:hover{
-    color: var(--color-1);
+.nav-text a:hover {
+  color: var(--color-1);
 }
-.border-t{
-    border-top: 1px solid rgb(194, 196, 197);
+.border-t {
+  border-top: 1px solid rgb(194, 196, 197);
+  max-height: 50em;
+  height: 31em;
+  overflow: hidden;
+  position: relative;
+  
 }
-.carosel{
-   height: 90%;
-   
-    
+.carosel {
+  height: 90%;
 }
-.caro-1{
-    
-    height: 42vh;
-    width: 100%;
-    background: url(/img/carousel-1.jpg) no-repeat;
-    background-position: center;
-   
-
-    
+.caro-1 {
+   max-height: 50em;
+  height: 31em;
+  width: 100%;
+  background: url(/img/carousel-1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.overlay{
-    position: absolute;
-    background-color: rgb(0, 0, 0);
-    opacity: .3;
-    
-     height: 42vh;
-    width: 99%;
+.overlay {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.3;
+  max-height: 50em;
+  height: 31em;
+  width: 100%;
 }
-.caro-2{
-     height: 42vh;
-    width: 100%;
-    background: url(/img/carousel-2.jpg) no-repeat;
-    background-position: center;
-    
+.caro-2 {
+    max-height: 50em;
+  height: 31em;
+  width: 100%;
+  background: url(/img/carousel-2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.front{
-    z-index: 1;
+.front {
+  z-index: 1;
 }
-.fa-check{
-    font-weight: bolder;
-    font-size:5em;
+.fa-check {
+  font-weight: bolder;
+  font-size: 5em;
 }
-.bi-check-lg{ 
-    color: var(--color-1);
+.bi-check-lg {
+  color: var(--color-1);
 }
-.product1{
-    font-weight: bold;
+.product1 {
+  font-weight: bold;
 }
 /* .card{
     position: absolute;
 } */
-.img-scale{
-   width: 25em;
-    height: 25em;
-    overflow: hidden;
-    
+.img-scale {
+  width: 25em;
+  height: 25em;
+  overflow: hidden;
 }
-.card-img1{
-    position: relative;
-    width: 25em;
-    height: 25em;
-    background: url(/img/cat-1.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+.card-img1 {
+  position: relative;
+  width: 25em;
+  height: 25em;
+  background: url(/img/cat-1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.card-img2{
-    position: relative;
-    width: 25em;
-    height: 25em;
-    background: url(/img/cat-2.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+.card-img2 {
+  position: relative;
+  width: 25em;
+  height: 25em;
+  background: url(/img/cat-2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.card-img3{
-    position: relative;
-    width: 25em;
-    height: 25em;
-    background: url(/img/cat-3.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+.card-img3 {
+  position: relative;
+  width: 25em;
+  height: 25em;
+  background: url(/img/cat-3.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.card-img1:hover{
-    transform: scale(1.2);
-    transition: 500ms;
+.card-img1:hover {
+  transform: scale(1.2);
+  transition: 500ms;
 }
-.card-img1{
-   
-    transition: 500ms;
+.card-img1 {
+  transition: 500ms;
 }
-.card-img2:hover{
-    transform: scale(1.2);
-    transition: 500ms;
+.card-img2:hover {
+  transform: scale(1.2);
+  transition: 500ms;
 }
-.card-img2{
-   
-    transition: 500ms;
+.card-img2 {
+  transition: 500ms;
 }
-.card-img3:hover{
-    transform: scale(1.2);
-    transition: 500ms;
+.card-img3:hover {
+  transform: scale(1.2);
+  transition: 500ms;
 }
-.card-img3{
-   
-    transition: 500ms;
+.card-img3 {
+  transition: 500ms;
 }
 /* row 2 */
-.card-img4{
-    position: relative;
-    width: 25em;
-    height: 25em;
-    background: url(/img/cat-4.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+.card-img4 {
+  position: relative;
+  width: 25em;
+  height: 25em;
+  background: url(/img/cat-4.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.card-img5{
-    position: relative;
-    width: 25em;
-    height: 25em;
-    background: url(/img/cat-5.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+.card-img5 {
+  position: relative;
+  width: 25em;
+  height: 25em;
+  background: url(/img/cat-5.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.card-img6{
-    position: relative;
-    width: 25em;
-    height: 25em;
-    background: url(/img/cat-6.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+.card-img6 {
+  position: relative;
+  width: 25em;
+  height: 25em;
+  background: url(/img/cat-6.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.card-img4:hover{
-    transform: scale(1.2);
-    transition: 500ms;
+.card-img4:hover {
+  transform: scale(1.2);
+  transition: 500ms;
 }
-.card-img4{
-   
-    transition: 500ms;
+.card-img4 {
+  transition: 500ms;
 }
-.card-img5:hover{
-    transform: scale(1.2);
-    transition: 500ms;
+.card-img5:hover {
+  transform: scale(1.2);
+  transition: 500ms;
 }
-.card-img5{
-   
-    transition: 500ms;
+.card-img5 {
+  transition: 500ms;
 }
-.card-img6:hover{
-    transform: scale(1.2);
-    transition: 500ms;
+.card-img6:hover {
+  transform: scale(1.2);
+  transition: 500ms;
 }
-.card-img6{
-   
-    transition: 500ms;
+.card-img6 {
+  transition: 500ms;
 }
-.colorpic1{
-background-color: var(--color-2);
+.colorpic1 {
+  background-color: var(--color-2);
+  
 }
-/* https://www.free-css.com/free-css-templates/page277/eshopper */
+.overfloww{
+  overflow: hidden;
+  width: 30em;
+  height: 30em;
 
+}
+.trendyimg1{
+  background: url(/img/product-1.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg1:hover{
+  transform: scale(1.2);
+}
+.trendyimg1{
+  transition-duration: 500ms;
+}
+.trendyimg2{
+  background: url(/img/product-2.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg2:hover{
+  transform: scale(1.2);
+}
+.trendyimg2{
+  transition-duration: 500ms;
+}
+.trendyimg3{
+  background: url(/img/product-3.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg3:hover{
+  transform: scale(1.2);
+}
+.trendyimg3{
+  transition-duration: 500ms;
+}
+.trendyimg4{
+  background: url(/img/product-4.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg4:hover{
+  transform: scale(1.2);
+}
+.trendyimg4{
+  transition-duration: 500ms;
+}
+.bi-eye{
+  color: var(--color-1);
+  font-size: 1em;
+  font-weight: bolder;
+}
+.bi-cart3{
+   color: var(--color-1);
+  font-size: 1em;
+  font-weight: bolder;
+  align-text: center;
+}
+
+.trendyimg5{
+  background: url(/img/product-5.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg5:hover{
+  transform: scale(1.2);
+}
+.trendyimg5{
+  transition-duration: 500ms;
+}
+.trendyimg6{
+  background: url(/img/product-6.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg6:hover{
+  transform: scale(1.2);
+}
+.trendyimg6{
+  transition-duration: 500ms;
+}
+.trendyimg7{
+  background: url(/img/product-7.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg7:hover{
+  transform: scale(1.2);
+}
+.trendyimg7{
+  transition-duration: 500ms;
+}
+.trendyimg8{
+  background: url(/img/product-8.jpg) no-repeat;
+  width: 25em;
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+}
+.trendyimg8:hover{
+  transform: scale(1.2);
+}
+.trendyimg8{
+  transition-duration: 500ms;
+}
+
+input[type=text]{
+  outline: none !important;
+         box-shadow: none;
+         width: 40em;
+}
+.subscribe{
+  background-color: var(--color-1);
+  
+}
+.subscribe:hover{
+  color: white;
+}
+
+.efooter{
+  background-color: var(--color-2);
+}
+.footlist li{
+  list-style:  none;
+ }
+/* https://www.free-css.com/free-css-templates/page277/eshopper */
 
 /* https://www.free-css.com/free-css-templates/page282/leadmark */
